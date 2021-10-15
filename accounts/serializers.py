@@ -31,7 +31,6 @@ class TransferSerializer(serializers.ModelSerializer):
         return attrs
 
 
-
 class BalanceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Account

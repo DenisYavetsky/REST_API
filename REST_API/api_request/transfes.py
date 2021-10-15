@@ -11,7 +11,7 @@ headers = {
 data = {
     'operation_dt': datetime.datetime.now().__str__(),
     'account_from': 2,
-    'account_to': 2,
+    'account_to': 1,
     'cost': 100
 }
 request = requests.post(url, headers=headers, data=json.dumps(data))
